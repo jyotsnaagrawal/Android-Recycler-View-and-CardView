@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = GridLayoutManager(this, 2) // Set the grid layout with 2 columns
         val imageList = listOf(drawable.rainy, drawable.sunny, drawable.sunset,drawable.ship, drawable.seass, drawable.winter,drawable.rainy, drawable.sea, drawable.seas,drawable.rainy,
             drawable.thunderstorm, drawable.woman, )
-        val captionList = listOf("Rainy", "Sunny", "Sunset","Ship", "sea", "Rainy", "Sunny", "Sunset","Ship", "sea")
+        val captionList = listOf("Rainy", "Sunni", "Sunset","Ship", "sea", "Rainy", "Sunny", "Sunset","Ship", "sea")
         recyclerView.adapter = MyAdapter(imageList, captionList)
     }
 }
